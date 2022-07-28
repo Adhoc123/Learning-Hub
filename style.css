@@ -1,0 +1,44 @@
+.container-img {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 520px;
+    border-radius: 2px;
+ 
+  }
+  .container-img img{
+    filter: brightness(50%);
+
+  }
+   Bottom left text
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  Top right text
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
