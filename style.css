@@ -2,11 +2,12 @@
     position: relative;
     text-align: center;
     color: white;
-    height: 520px;
+   
     border-radius: 2px;
  
   }
   .container-img img{
+    height: 500px;
     filter: brightness(50%);
 
   }
@@ -23,7 +24,7 @@
     left: 16px;
   }
   
-  Top right text
+  /* Top right text */
   .top-right {
     position: absolute;
     top: 8px;
